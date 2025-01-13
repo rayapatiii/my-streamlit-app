@@ -1,0 +1,10 @@
+project: streamlit-app
+api:
+  name: food-reviews-api
+  kind: python
+  min_replicas: 1
+  max_replicas: 2
+  concurrency: 1
+resources:
+  cpu: 0.5
+  memory: 1Gi
